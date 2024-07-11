@@ -1,10 +1,11 @@
 from setuptools import setup
 
-APP = ["ui.py"]
+APP = ["image-flipper.py"]
 DATA_FILES = []
 OPTIONS = {
     "argv_emulation": True,
     "iconfile": "icons/icon.icns",
+    "packages": ["PIL"],
 }
 
 setup(

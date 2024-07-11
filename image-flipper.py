@@ -46,7 +46,7 @@ def get_file():
 window = Tk()
 
 # Set window title
-window.title("File Flipper")
+window.title("Image Flipper")
 
 current_platform = platform.system()
 
@@ -64,9 +64,8 @@ window.geometry("500x500")
 # Set window background color
 window.config(background="white")
 
-# Create a File Explorer label
 label_file_explorer = Label(
-    window, text="File Flipper", width=100, height=4, fg="black", bg="white"
+    window, text="Image Flipper", width=100, height=4, fg="black", bg="white"
 )
 
 
