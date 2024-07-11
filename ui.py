@@ -3,7 +3,10 @@ from tkinter import *
 from tkinter import filedialog
 import flip
 import os
+from sys import exit
 from pathlib import Path
+from PIL import Image, ImageTk
+import platform
 
 
 # Function for opening the
@@ -44,6 +47,16 @@ window = Tk()
 
 # Set window title
 window.title("File Flipper")
+
+current_platform = platform.system()
+
+if current_platform == "Windows":
+    icon_path = os.path.join(os.path.dirname(__file__), "icons/icon.ico")
+    window.iconbitmap(icon_path)  # Use iconbitmap for .ico files on Windows
+else:
+    icon_path = os.path.join(os.path.dirname(__file__), "icons/icon.png")
+    icon = ImageTk.PhotoImage(file=icon_path)
+    window.iconphoto(False, icon)
 
 # Set window size
 window.geometry("500x500")
