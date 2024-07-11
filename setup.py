@@ -11,7 +11,7 @@ OPTIONS = {
         "CFBundleName": "Image Flipper",  # Application name
         "CFBundleShortVersionString": "0.0.1",  # Application version
         "CFBundleGetInfoString": "Image Flipper App",  # Information string
-        "CFBundleExecutable": "Image Flipper",  # Executable file name
+        "CFBundleExecutable": "image-flipper",  # Executable file name
     },
 }
 
