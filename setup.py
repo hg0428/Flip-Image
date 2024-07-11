@@ -7,7 +7,7 @@ OPTIONS = {
     "iconfile": "icons/icon.icns",
     "packages": ["PIL"],
     "plist": {
-        "CFBundleIconFile": "icons/icon.png",  # Window icon for macOS
+        "CFBundleIconFile": "icons/icon.icns",  # Window icon for macOS
         "CFBundleName": "Image Flipper",  # Application name
         "CFBundleShortVersionString": "0.0.1",  # Application version
         "CFBundleGetInfoString": "Image Flipper App",  # Information string
