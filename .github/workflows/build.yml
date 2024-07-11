@@ -51,7 +51,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: executable-macos
-        path: dist/image-flipper.app
+        path: "dist/Image Flipper.app"
 
     - name: Upload artifact on Linux
       if: matrix.os == 'ubuntu-latest'
