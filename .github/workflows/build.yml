@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pyinstaller PIL
+        pip install pyinstaller pillow
 
     - name: Build executable on Windows
       if: matrix.os == 'windows-latest'
