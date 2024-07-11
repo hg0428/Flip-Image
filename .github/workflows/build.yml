@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pyinstaller
+        pip install pyinstaller pillow
         if [[ $RUNNER_OS == 'macOS' ]]; then
           pip install py2app
         fi
