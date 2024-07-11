@@ -9,7 +9,7 @@ OPTIONS = {
     "plist": {
         "CFBundleIconFile": "icons/icon.png",  # Window icon for macOS
         "CFBundleName": "Image Flipper",  # Application name
-        "CFBundleShortVersionString": "1.0",  # Application version
+        "CFBundleShortVersionString": "0.0.1",  # Application version
         "CFBundleGetInfoString": "Image Flipper App",  # Information string
         "CFBundleExecutable": "Image Flipper",  # Executable file name
     },
